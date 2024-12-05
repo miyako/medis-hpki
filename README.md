@@ -10,4 +10,4 @@ https://www.medis.or.jp/8_hpki/video.html
 * setup_x64.msi
 * setup_x86.msi
 
-「ドライバ」をインストールすることにより，カードリーダーと通信するための仕組みが[暗号化サービスプロバイダー（CSP）](https://learn.microsoft.com/ja-jp/windows/win32/seccrypto/cryptographic-service-providers)に登録され，ローレベルのAPDU実装を気にすることなく，ハイレベル抽象化レイヤーである[CryptoAPI](https://learn.microsoft.com/ja-jp/windows/win32/seccrypto/cryptoapi-system-architecture)からアクセスできるようになります。
+「ドライバ」をインストールすると，カードリーダーと通信するための仕組みが[暗号化サービスプロバイダー（CSP）](https://learn.microsoft.com/ja-jp/windows/win32/seccrypto/cryptographic-service-providers)に登録され，ローレベルのAPDU実装を気にすることなく，ハイレベルの抽象化レイヤーである[CryptoAPI](https://learn.microsoft.com/ja-jp/windows/win32/seccrypto/cryptoapi-system-architecture)でアクセスできるようになります。
